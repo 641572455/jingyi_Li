@@ -2,13 +2,13 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    
+     <Hi/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Hi from './components/Hi.vue'
 export default {
   name: 'App',
   data:{
@@ -17,7 +17,7 @@ export default {
     }
   },
   components: {
-    HelloWorld
+    HelloWorld,Hi
   }
 }
 </script>
