@@ -13,7 +13,7 @@ export default {
   name: 'App',
   data:{
     return{
-      name:'liojingui'
+      name:'dsafaf'
     }
   },
   components: {
